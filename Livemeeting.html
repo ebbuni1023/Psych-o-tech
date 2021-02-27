@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  background-size: 100%;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url('https://thedailyguardian.net/wp-content/uploads/2021/02/cropped-brainf1.jpg');
+  background-repeat:no-repeat;
+}
+
+.header {
+  overflow: hidden;
+  /* background-color: rgb(210, 241, 217); */
+  padding: 20px 10px;
+}
+
+
+.header a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  /* background-color: rgb(243, 233, 247); */
+  color: rgb(106, 140, 233);
+}
+
+.header a.active {
+  background-color: rgb(106, 140, 233);
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.LiveContainer{
+  /* border:3px solid white; */
+  padding:20px;
+  /* margin-top: 10%; */
+  /* grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; */
+  /* display: flex; */
+
+}
+
+.Livemeeting{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+
+}
+</style>
+</head>
+<body>
+<!------------Header------------->
+<div class="header">
+  <a href="index.html" class="logo">Psych-o-Tech</a>
+  <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+    <a href="Livemeeting.html">Meeting</a>
+    <a href="About.html">About</a>
+  </div>
+</div>
+
+<!-- <div class ="LiveOn">
+  <h3>LIVE SESSION</h3>
+</div> -->
+<!------------Livemeeting------------->
+<div class = LiveContainer>
+  <h3>LIVE SESSION</h3>
+
+<div class="Livemeeting">
+  <div class="Left">
+    <img src="https://www.gannett-cdn.com/presto/2020/12/01/USAT/6ee76d71-d8b3-4543-bed1-3bb2345e5081-Best-of-2020-ipadair-zoom_12012020.jpeg?width=660&height=478&fit=crop&format=pjpg&auto=webp" width = 400 height = 400 alt="Avatar woman">
+  </div>
+</div>
+
+<div class="Livemeeting">
+  <div class="right">
+    <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frobisbitts2%2Ffiles%2F2018%2F07%2FCycle-Emojis.jpg" width = 400 height = 400 alt="Graph">
+  </div>
+</div>
+</div>
+
+</body>
+</html>

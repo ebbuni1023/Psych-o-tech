@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  background-size: 100%;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url('https://thedailyguardian.net/wp-content/uploads/2021/02/cropped-brainf1.jpg');
+  background-repeat:no-repeat;
+}
+
+.header {
+  overflow: hidden;
+  /* background-color: rgb(210, 241, 217); */
+  padding: 20px 10px;
+}
+
+
+.header a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  /* background-color: rgb(243, 233, 247); */
+  color: rgb(106, 140, 233);
+}
+
+.header a.active {
+  background-color: rgb(106, 140, 233);
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.LiveContainer{
+  /* border:3px solid white; */
+  padding:20px;
+  /* margin-top: 10%; */
+  /* grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; */
+  /* display: flex; */
+
+}
+
+.Livemeeting{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.box {
+    position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        height: 50%;
+        padding: 20px;
+        background: white;
+        color: white;
+        text-align: center;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+        opacity: 0.8;
+  }
+
+  h3{
+      color: black;
+  }
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+<!------------Header------------->
+<div class="header">
+  <a href="index.html" class="logo">Psych-o-Tech</a>
+  <div class="header-right">
+    <a class="active" href="index.html">Home</a>
+    <a href="Livemeeting.html">Meeting</a>
+    <a href="About.html">About</a>
+  </div>
+</div>
+
+<!------------Login------------->
+<div class = "box">
+    <div class = "login">
+        <h3>Do you want to share your emotional feeling so your doctor can know your situation?</h3>
+        <div class = "in">
+            <button>
+                <a type="button" href="register.html"> SignUp</a>
+               </button> 
+        </div>
+        <div class = "out">
+            <a type="button" href="register.html"> SignUP</a>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -44,7 +44,7 @@ auth.onAuthStateChanged(function(user) {
         alert("Active User " + email);
 
         //Take user to a different or home page
-        window.location = "room.html";
+        window.location = "Livemeeting.html";
         //is signed in
 
     } else {

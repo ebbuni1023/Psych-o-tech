@@ -26,10 +26,9 @@ button:hover {
 }
 
 .modal-content {
-    /* background-image: url(cat.png); */
-    background-color: rgb(226, 226, 220);
+    background-color: rgba(57, 122, 206, 0.938);
     margin: 5% auto 15% auto;
-    border: 1px solid #888;
+    border: 1px solid rgb(82, 115, 165);
     width: 80%;
 }
 

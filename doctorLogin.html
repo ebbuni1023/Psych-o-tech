@@ -66,7 +66,7 @@
         input[type=text],
         input[type=email],
         input[type=password],
-        input[type=diagnosis],
+        input[type=date]
         select,
         textarea {
             width: 100%;
@@ -76,7 +76,7 @@
             margin-bottom: 16px;
             resize: vertical;
         }
-
+        
         input[type=submit] {
             background-color: rgb(55, 55, 182);
             color: white;
@@ -176,18 +176,16 @@
                                     <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
                                     <label for="lname">Last Name</label>
                                     <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
                                     <label><b>Date of Birth</b></label>
                                     <input type="date" placeholder="Enter MM/DD/YYYY" id="date" required><br><br>
 
-                                    <input type="diagnosis" id="diagnosis" name="diagnosis" placeholder="Please enter your self diagnosis" required>
                                     <label>Your e-mail</label><br>
                                     <input type="email" id="email" placeholder="name@example.com" required><br><br>
 
                                     <label><b>Password</b></label><br>
                                     <input type="password" placeholder="Enter Password" id="password" required><br><br>
 
-                                    <!--   <label for="psw-repeat"><b>Repeat Password</b></label><br>
-                                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br><br> -->
 
                                     <label for="country">Country</label>
                                     <!--Label select-->

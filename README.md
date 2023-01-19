@@ -35,5 +35,11 @@ Should we simply sit here and pretend like we shouldn't talk about mental illnes
 
 We can have a very human conversation about a very human experience, and it won't be hard. Just be HUMAN and open your heart because you know, if it's not your friend, it could be you.
 
-## References
-(to be updated)
+## Built With
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,flask,python)](https://skillicons.dev) + kaggle + autodesk-fusion-360
+
+### AngelHacks 2.0
+https://devpost.com/software/psych-o-tech
+
+### Youtube Demo
+https://youtu.be/e3MqUR4hLnM
